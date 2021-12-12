@@ -1,0 +1,62 @@
+<!--Robeto Reynoso
+JavaScirpt
+Tic Tac Toe, using lists, loops, if statments, functions accordingly.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <!--CSS-->
+    <link rel= "stylesheet"
+        type="text/css" href="toe.css">
+    <!--JavaScript-->
+    <script src="tic_tac_toe.js"></script>
+</head>
+<body>
+    <div id="main">
+        <h1>Tic Tac Toe Game</h1>
+        <br><br>
+        <!--Play-->
+        <input type="text" id="spots0" onclick=
+            "game_3(); game();" readonly>
+  
+        <input type="text" id="spots1" onclick=
+            "game_4(); game();" readonly>
+  
+        <input type="text" id="spots2" onclick=
+            "game_5(); game();" readonly>
+        <br><br>
+  
+        <input type="text" id="spots3" onclick=
+            "game_6(); game();" readonly>
+              
+        <input type="text" id="spots4" onclick=
+            "game_7(); game();" readonly>
+  
+        <input type="text" id="spots5" onclick=
+            "game_8(); game();" readonly>
+        <br><br>
+  
+        <input type="text" id="spots6" onclick=
+            "game_9(); game();" readonly>
+  
+        <input type="text" id="spots7" onclick=
+            "game_10(); game();" readonly>
+  
+        <input type="text" id="spots8" onclick=
+            "game_11(); game();" readonly>
+        
+        <!--End and reset-->
+        <br><br><br>
+        <button id="but" onclick="game_2()">
+            RESTART
+        </button>
+        <br><br>
+        <p id="print"></p>
+    </div>
+    
+</body>
+</html>

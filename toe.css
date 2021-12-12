@@ -1,0 +1,45 @@
+/*Robeto Reynoso
+JavaScirpt
+Tic Tac Toe, using lists, loops, if statments, functions accordingly.*/
+
+h1 {
+    color: rgb(10, 27, 63);
+    font-size: 70px;
+    }
+  
+#spots0, #spots1, #spots2, #spots3, #spots4, 
+#spots5, #spots6, #spots7, #spots8 {
+    width: 120px;
+    height: 80px;
+    margin: auto;
+    border: 1px solid rgb(9, 4, 4);
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    }
+
+#but {
+    box-sizing: borderbox;
+    width: 110px;
+    height: 40px;
+    border: 1px solid rgb(99, 135, 172);
+    margin: auto;
+    border-radius: 4px;
+    font-family: sans-serif;
+  
+    background-color: rgb(84, 39, 99);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    }
+  
+#print {
+    font-family: sans-serif;
+  
+    color: rgb(71, 41, 77);
+    font-size: 20px;
+    }
+  
+#main {
+    text-align: center;
+    }
